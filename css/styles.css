@@ -3,7 +3,7 @@
     --text-color-full-black: #000000;
     --text-color-white: #FFFFFF;
     --text-color-gray: #757575;
-    --text-color-gray-alpfa: rgba(255, 255, 255, 0.6);
+    --text-color-gray-alpfa: rgba(255, 255, 255/ .6);
 
     --bg-color-black: #2F303A;
     --bg-color-gray: #F5F4FA;
@@ -18,11 +18,19 @@
     color: var(--text-color-black);
 }
 
+.navigation .active {
+    color: var(--accent-color);
+}
+
+.item-descr {
+    color: var(--text-color-gray);
+}
+
+
+/* Header start */
 .header {
     background-color: var(--bg-color-white);
 }
-
-.navigation {}
 
 .logo {
 
@@ -66,10 +74,14 @@
     color: var(--text-color-gray);
 }
 
-.link:hover {
+.header .link:hover {
     color: var(--accent-color);
 }
 
+/* Header end */
+
+
+/* Hero section start*/
 .hero-section {
     text-align: center;
     background-color: var(--bg-color-black);
@@ -83,28 +95,114 @@
     color: var(--text-color-white)
 }
 
-.btn {
+.hero-section>.btn {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.86;
     letter-spacing: 0.06em;
+    color: var(--text-color-white);
 
     background-color: var(--accent-color);
+}
+
+/* Hero section end*/
+
+
+/* Benefits section start */
+.benefits-section .item-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.benefits-section .item-descr {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+/* Benefits section end */
+
+/* Our job section start */
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Our job section end */
+
+/* Our team section start */
+.our-team-section {
+    background-color: var(--bg-color-gray);
+}
+
+.our-team-section .item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.our-team-section .item-descr {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+/* Our team section end */
+
+/* Footer start */
+.footer {
+    background-color: var(--bg-color-black);
+}
+
+.address .link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--text-color-gray-alpfa);
+}
+
+.address .address-link {
     color: var(--text-color-white);
 }
 
-.section {}
+/* Portfolio section start*/
 
-.section-title {}
+/* Portfolio section start*/
+.filters-list .btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: currentColor;
 
-.item-title {}
+    background-color: var(--bg-color-gray)
+}
 
-.item-descr {}
+.filters-list .btn:hover {
+    color: var(--text-color-white);
 
-.list-title {}
+    background-color: var(--accent-color);
+}
 
-.image {}
+.porfolio-section .item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
 
-.footer {}
-
-.address {}
+.porfolio-section .item-descr {
+    font-size: 16px;
+    line-height: 1.86;
+    letter-spacing: 0.03em;
+}
