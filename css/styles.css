@@ -26,6 +26,15 @@
     color: var(--text-color-gray);
 }
 
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+.btn {
+    cursor: pointer;
+}
+
 
 /* Header start */
 .header {
@@ -71,15 +80,6 @@
 
 .contacts-list .link {
     color: var(--text-color-gray);
-}
-
-.link:hover,
-.link:focus {
-    color: var(--accent-color);
-}
-
-.btn {
-    cursor: pointer;
 }
 
 /* Header end */
