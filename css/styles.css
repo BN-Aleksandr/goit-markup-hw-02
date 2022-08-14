@@ -3,7 +3,7 @@
     --text-color-full-black: #000000;
     --text-color-white: #FFFFFF;
     --text-color-gray: #757575;
-    --text-color-gray-alpfa: rgba(255, 255, 255/ .6);
+    --text-color-gray-alpfa: rgba(255, 255, 255, .6);
 
     --bg-color-black: #2F303A;
     --bg-color-gray: #F5F4FA;
@@ -33,7 +33,6 @@
 }
 
 .logo {
-
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -74,8 +73,13 @@
     color: var(--text-color-gray);
 }
 
-.header .link:hover {
+.link:hover,
+.link:focus {
     color: var(--accent-color);
+}
+
+.btn {
+    cursor: pointer;
 }
 
 /* Header end */
@@ -161,7 +165,7 @@
     background-color: var(--bg-color-black);
 }
 
-.address .link {
+.footer-link {
     font-style: normal;
     font-size: 14px;
     line-height: 24px;
@@ -169,11 +173,9 @@
     color: var(--text-color-gray-alpfa);
 }
 
-.address .address-link {
+.address-link {
     color: var(--text-color-white);
 }
-
-/* Portfolio section start*/
 
 /* Portfolio section start*/
 .filters-list .btn {
@@ -188,7 +190,8 @@
     background-color: var(--bg-color-gray)
 }
 
-.filters-list .btn:hover {
+.filters-list .btn:hover,
+.filters-list .btn:focus {
     color: var(--text-color-white);
 
     background-color: var(--accent-color);
@@ -206,3 +209,5 @@
     line-height: 1.86;
     letter-spacing: 0.03em;
 }
+
+/* Portfolio section end*/
