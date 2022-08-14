@@ -78,7 +78,7 @@
     letter-spacing: 0.02em;
 }
 
-.contacts-list .link {
+.contacts-link {
     color: var(--text-color-gray);
 }
 
