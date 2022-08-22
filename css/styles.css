@@ -60,6 +60,7 @@ sans-serif;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: currentColor;
 }
 
 .nav-list-link:visited {
@@ -125,6 +126,7 @@ sans-serif;
     letter-spacing: 0.06em;
     color: var(--text-color-white);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -276,8 +278,10 @@ sans-serif;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+
     color: inherit;
     background-color: var(--bg-color-gray);
+    cursor: pointer;
 }
 
 .filters-btn:hover {
